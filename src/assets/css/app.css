@@ -1,0 +1,14 @@
+@import url('../../index.css');
+
+.App{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.App{
+    background-color: transparent;
+    background-image: radial-gradient(at center center, #de113037 0%, #0D0B11 60%);
+
+}

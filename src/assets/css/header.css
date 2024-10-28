@@ -1,0 +1,16 @@
+@import url('../../index.css');
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    background-color: #0d0b1185;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: solid 1px var(--border-color);
+}
+
+.cabecalho__logo{
+    width: 122px;
+}

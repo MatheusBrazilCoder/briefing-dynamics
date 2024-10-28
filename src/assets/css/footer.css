@@ -1,0 +1,15 @@
+@import url('../../index.css');
+
+.footer{
+    background-color: var(--background-footer);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__text{
+    font-size: 12px;
+    color: var(--text-color);
+    opacity: 40%;
+}
