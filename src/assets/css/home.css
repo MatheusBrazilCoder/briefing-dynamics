@@ -1,6 +1,68 @@
+@import url('../../index.css');
+
 .home{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.home__title{
+    font-size: 42px;
+}
+
+.home__title--color{
+    color: var(--btn-color);
+}
+
+.home__subtitle{
+    margin-top: -18px;
+    font-size: 18px;
+}
+
+.home-nav__list{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.home-nav__item{
+    width: 200px;
+    height: 200px;
+    margin: 50px 0px;
+    background-color: var(--btn-color);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.home-nav__item:hover {
+    transition: 1s;
+    transform: scale(1.05);
+    transform-origin: center;
+}
+
+
+.home-nav__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-nav__title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    color: var(--text-color);
+}
+
+.home-nav__icon{
+    color: var(--text-color);
+    margin-bottom: -10px;
 }
