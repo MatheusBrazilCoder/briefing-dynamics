@@ -1,6 +1,7 @@
 @import url('../../index.css');
 
 .footer{
+    width: 100%;
     background-color: var(--background-footer);
     height: 60px;
     display: flex;

@@ -1,0 +1,10 @@
+.briefing{
+    margin: 0 auto;
+    padding: 0 50px;
+    box-sizing: border-box;
+    align-items: start;
+}
+
+.briefing__title{
+    font-size: 32px;
+}

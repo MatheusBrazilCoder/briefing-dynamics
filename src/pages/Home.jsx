@@ -1,3 +1,4 @@
+import '../assets/css/briefing.css';
 import '../assets/css/home.css';
 import React from "react";
 import { Link } from "react-router-dom";
@@ -8,9 +9,9 @@ import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 
 const Home = () =>{
     return(
-        <main className="home">
+        <main className="home main">
             <h1 className="home__title">
-                Vamos Criar o Seu <span className="home__title--color">Briefing</span>.
+                Vamos Criar o Seu <span className="title--color">Briefing</span>.
             </h1>
             <span className="home__subtitle">
             Escolha abaixo o serviço que você está interessado!

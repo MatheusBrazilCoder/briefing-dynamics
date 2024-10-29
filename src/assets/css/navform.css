@@ -1,0 +1,16 @@
+@import url('../../index.css');
+
+.line {
+    width: 100%;
+    position: relative; /* Necessário para posicionar o pseudo-elemento */
+}
+
+.line:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1px; /* Altura da borda */
+    background: linear-gradient(to right, var(--btn-color), #99999900); /* Gradiente */
+}

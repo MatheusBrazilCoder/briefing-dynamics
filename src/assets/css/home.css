@@ -1,8 +1,6 @@
 @import url('../../index.css');
 
 .home{
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -11,7 +9,7 @@
     font-size: 42px;
 }
 
-.home__title--color{
+.title--color{
     color: var(--btn-color);
 }
 
