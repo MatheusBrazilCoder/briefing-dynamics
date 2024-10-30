@@ -1,10 +1,19 @@
 .briefing{
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 0 60px;
     box-sizing: border-box;
     align-items: start;
 }
 
 .briefing__title{
-    font-size: 32px;
+    font-size: 52px;
+    padding: 35px 0px 5px 0px;
+}
+
+.briefing__subtitle{
+    font-size: 18px;
+}
+
+form{
+    padding: 30px 0;
 }

@@ -14,3 +14,49 @@
     height: 1px; /* Altura da borda */
     background: linear-gradient(to right, var(--btn-color), #99999900); /* Gradiente */
 }
+
+.container-nav__list{
+    display: flex;
+    margin-top: 90px;
+}
+
+.container-nav__item{
+    display: flex;
+    align-items: center;
+    padding: 25px 40px 25px 0px;
+}
+
+.container-nav__circle{
+    background-color: var(--nav-circle-off);
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.container-nav__circle--active{
+    background-color: var(--btn-color);
+}
+
+.container-nav__number{
+    font-size: 30px;
+    color: var(--nav-text-off);
+}
+
+.container-nav__number--active{
+    color: var(--nav-text-on);
+}
+
+.container-nav__text{
+    color: var(--nav-text-off);
+    width: 80px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.container-nav__text--active{
+    color: var(--nav-text-on);
+}

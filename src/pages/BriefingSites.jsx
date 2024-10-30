@@ -15,6 +15,7 @@ const BriefingSites = () => {
             <main className="briefing main">
                 <NavForm></NavForm>
                 <h1 className="briefing__title">Preencha para <span className="title--color">criarmos o seu site</span>.</h1>
+                <p className="briefing__subtitle">Escolha abaixo o serviço que você está interessado!</p>
                 <form>
                     {currentComponent}
                     {!firstStep(currentStep) && (

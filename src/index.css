@@ -4,6 +4,9 @@
   --border-color: #f1dede19;
   --background-footer: #18121b5d;
   --text-color: #fff;
+  --nav-circle-off: #736668;
+  --nav-text-off: #CEC0C0;
+  --nav-text-on: #F7E8E8;
 }
 
 body {
@@ -17,6 +20,10 @@ body {
   color: var(--text-color);
 }
 
+h1, h2, h3, h4, h5, h6, p, span{
+  margin: 0;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -26,7 +33,7 @@ code {
 .main{
   display: flex;
   flex-direction: column;
-  max-width: 1440px;
+  max-width: 1300px;
   width: 100vw;
   height: calc(100vh - 60px - 91px);
   margin: 0px 50px;
