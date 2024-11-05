@@ -34,7 +34,6 @@ code {
   display: flex;
   flex-direction: column;
   max-width: 1300px;
-  width: 100vw;
   height: calc(100vh - 60px - 91px);
   margin: 0px 50px;
 }

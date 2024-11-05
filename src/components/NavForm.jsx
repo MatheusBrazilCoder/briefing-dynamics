@@ -1,6 +1,7 @@
 import '../assets/css/navform.css'
 
-const NavForm = (totalSteps, currentStep, currentTitle) =>{
+const NavForm = (currentTitle) =>{
+
     return(
         <>
         <div className="container-nav__list">
@@ -12,7 +13,7 @@ const NavForm = (totalSteps, currentStep, currentTitle) =>{
                 </div>
                 <span className="container-nav__text container-nav__text--active">
                     Informações
-                    Exemplo  1
+                    Exemplo  2
                 </span>
             </div>
 

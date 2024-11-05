@@ -1,9 +1,8 @@
-const UserForm = () =>{
-    return(
+const UserForm = ({ title }) => {
+    return (
         <>
-        <h1>UserForm 1</h1>
+            <h1>{title}</h1>
         </>
-        
     );
 }
 

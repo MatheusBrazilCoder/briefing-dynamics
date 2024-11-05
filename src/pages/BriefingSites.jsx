@@ -6,12 +6,14 @@ import UserForm2 from "../components/briefing-sites-form/UserForm2";
 import NavForm from "../components/NavForm";
 
 const BriefingSites = () => {
-    const formComponents = [<UserForm/>, <UserForm2/>,<Thanks/>];
+    const formComponents = [<UserForm title={'Use Form 1'}/>, <UserForm2 title={'Use Form 2'}/>, <Thanks/>];
+    const titles = formComponents.map(component => component.props.title).filter(title => title);
 
     const { currentStep, currentComponent, changeStep, lastStep, firstStep } = useForm(formComponents);
 
     return (
         <>
+            alert({titles})
             <main className="briefing main">
                 <NavForm></NavForm>
                 <h1 className="briefing__title">Preencha para <span className="title--color">criarmos o seu site</span>.</h1>
